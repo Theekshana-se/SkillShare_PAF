@@ -1,22 +1,22 @@
-2025-04-27T17:01:12.045+05:30  INFO 31828 --- [instructor_service] [main] c.s.i.InstructorServiceApplication       : Starting InstructorServiceApplication using Java 21.0.5 with PID 31828 (C:\Desktop\skill_share_paf\instructor_service\instructor_service\target\classes started by dell in C:\Desktop\skill_share_paf\instructor_service\instructor_service)
-2025-04-27T17:01:12.052+05:30 DEBUG 31828 --- [instructor_service] [main] c.s.i.InstructorServiceApplication       : Running with Spring Boot v3.4.5, Spring v6.2.6
-2025-04-27T17:01:12.055+05:30  INFO 31828 --- [instructor_service] [main] c.s.i.InstructorServiceApplication       : No active profile set, falling back to 1 default profile: "default"
-2025-04-27T17:01:14.748+05:30  INFO 31828 --- [instructor_service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-27T17:01:14.936+05:30  INFO 31828 --- [instructor_service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 159 ms. Found 1 JPA repository interface.
-2025-04-27T17:01:16.522+05:30  INFO 31828 --- [instructor_service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8001 (http)
-2025-04-27T17:01:16.574+05:30  INFO 31828 --- [instructor_service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-04-27T17:01:16.575+05:30  INFO 31828 --- [instructor_service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
-2025-04-27T17:01:16.727+05:30  INFO 31828 --- [instructor_service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-04-27T17:01:16.729+05:30  INFO 31828 --- [instructor_service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4548 ms
-2025-04-27T17:01:17.177+05:30  INFO 31828 --- [instructor_service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-27T17:01:17.395+05:30  INFO 31828 --- [instructor_service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
-2025-04-27T17:01:17.503+05:30  INFO 31828 --- [instructor_service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-04-27T17:01:18.208+05:30  INFO 31828 --- [instructor_service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-27T17:01:18.283+05:30  INFO 31828 --- [instructor_service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-04-27T17:01:18.780+05:30  INFO 31828 --- [instructor_service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7b211077
-2025-04-27T17:01:18.783+05:30  INFO 31828 --- [instructor_service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-04-27T17:01:18.899+05:30  WARN 31828 --- [instructor_service] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-04-27T17:01:18.938+05:30  INFO 31828 --- [instructor_service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-04-30T13:49:48.139+05:30  INFO 17956 --- [instructor_service] [main] c.s.i.InstructorServiceApplication       : Starting InstructorServiceApplication using Java 21.0.5 with PID 17956 (C:\Desktop\skill_share_paf\instructor_service\instructor_service\target\classes started by dell in C:\Desktop\skill_share_paf\instructor_service\instructor_service)
+2025-04-30T13:49:48.196+05:30 DEBUG 17956 --- [instructor_service] [main] c.s.i.InstructorServiceApplication       : Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-04-30T13:49:48.200+05:30  INFO 17956 --- [instructor_service] [main] c.s.i.InstructorServiceApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-04-30T13:49:52.350+05:30  INFO 17956 --- [instructor_service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-30T13:49:52.571+05:30  INFO 17956 --- [instructor_service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 190 ms. Found 1 JPA repository interface.
+2025-04-30T13:49:55.298+05:30  INFO 17956 --- [instructor_service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8001 (http)
+2025-04-30T13:49:55.400+05:30  INFO 17956 --- [instructor_service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-30T13:49:55.402+05:30  INFO 17956 --- [instructor_service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-04-30T13:49:55.759+05:30  INFO 17956 --- [instructor_service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-30T13:49:55.763+05:30  INFO 17956 --- [instructor_service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7290 ms
+2025-04-30T13:49:57.057+05:30  INFO 17956 --- [instructor_service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-30T13:49:57.828+05:30  INFO 17956 --- [instructor_service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-04-30T13:49:57.980+05:30  INFO 17956 --- [instructor_service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-30T13:49:59.528+05:30  INFO 17956 --- [instructor_service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-30T13:49:59.651+05:30  INFO 17956 --- [instructor_service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-30T13:50:00.992+05:30  INFO 17956 --- [instructor_service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3b8507df
+2025-04-30T13:50:00.996+05:30  INFO 17956 --- [instructor_service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-30T13:50:01.200+05:30  WARN 17956 --- [instructor_service] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-30T13:50:01.315+05:30  INFO 17956 --- [instructor_service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 17.4
@@ -24,43 +24,30 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-04-27T17:01:21.195+05:30  INFO 31828 --- [instructor_service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-04-27T17:01:21.875+05:30  INFO 31828 --- [instructor_service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-04-27T17:01:22.661+05:30  WARN 31828 --- [instructor_service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-27T17:01:23.533+05:30  INFO 31828 --- [instructor_service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8001 (http) with context path '/'
-2025-04-27T17:01:23.557+05:30  INFO 31828 --- [instructor_service] [main] c.s.i.InstructorServiceApplication       : Started InstructorServiceApplication in 13.44 seconds (process running for 14.437)
-2025-04-27T17:02:04.882+05:30  INFO 31828 --- [instructor_service] [http-nio-8001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-04-27T17:02:04.886+05:30  INFO 31828 --- [instructor_service] [http-nio-8001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-04-27T17:02:04.893+05:30  INFO 31828 --- [instructor_service] [http-nio-8001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
-2025-04-27T17:02:05.402+05:30  INFO 31828 --- [instructor_service] [http-nio-8001-exec-1] c.s.i.service.CourseService              : Creating course: Complete React Developer Course
-2025-04-27T17:02:05.755+05:30  INFO 31828 --- [instructor_service] [http-nio-8001-exec-1] c.s.i.service.CourseService              : Course created with ID: 4
-2025-04-27T17:02:57.615+05:30  INFO 31828 --- [instructor_service] [http-nio-8001-exec-5] c.s.i.service.CourseService              : Updating course with ID: 4
-2025-04-27T17:02:57.808+05:30  INFO 31828 --- [instructor_service] [http-nio-8001-exec-5] c.s.i.service.CourseService              : Updating modules for course ID: 4
-2025-04-27T17:02:57.881+05:30  INFO 31828 --- [instructor_service] [http-nio-8001-exec-5] c.s.i.service.CourseService              : Course updated with ID: 4
-2025-04-27T17:07:12.530+05:30  INFO 31828 --- [instructor_service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-04-27T17:07:12.852+05:30  INFO 31828 --- [instructor_service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-04-27T17:07:13.163+05:30  INFO 31828 --- [instructor_service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-04-27T17:07:13.393+05:30  INFO 31828 --- [instructor_service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-04-27T17:07:13.579+05:30  INFO 31828 --- [instructor_service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-04-27T17:07:52.061+05:30  INFO 14552 --- [instructor_service] [main] c.s.i.InstructorServiceApplication       : Starting InstructorServiceApplication using Java 21.0.5 with PID 14552 (C:\Desktop\skill_share_paf\instructor_service\instructor_service\target\classes started by dell in C:\Desktop\skill_share_paf\instructor_service\instructor_service)
-2025-04-27T17:07:52.067+05:30 DEBUG 14552 --- [instructor_service] [main] c.s.i.InstructorServiceApplication       : Running with Spring Boot v3.4.5, Spring v6.2.6
-2025-04-27T17:07:52.069+05:30  INFO 14552 --- [instructor_service] [main] c.s.i.InstructorServiceApplication       : No active profile set, falling back to 1 default profile: "default"
-2025-04-27T17:07:53.998+05:30  INFO 14552 --- [instructor_service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-27T17:07:54.179+05:30  INFO 14552 --- [instructor_service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 153 ms. Found 1 JPA repository interface.
-2025-04-27T17:07:55.614+05:30  INFO 14552 --- [instructor_service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8001 (http)
-2025-04-27T17:07:55.650+05:30  INFO 14552 --- [instructor_service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-04-27T17:07:55.651+05:30  INFO 14552 --- [instructor_service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
-2025-04-27T17:07:55.772+05:30  INFO 14552 --- [instructor_service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-04-27T17:07:55.773+05:30  INFO 14552 --- [instructor_service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3593 ms
-2025-04-27T17:07:56.274+05:30  INFO 14552 --- [instructor_service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-27T17:07:56.442+05:30  INFO 14552 --- [instructor_service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
-2025-04-27T17:07:56.526+05:30  INFO 14552 --- [instructor_service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-04-27T17:07:57.329+05:30  INFO 14552 --- [instructor_service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-27T17:07:57.418+05:30  INFO 14552 --- [instructor_service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-04-27T17:07:57.951+05:30  INFO 14552 --- [instructor_service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7b211077
-2025-04-27T17:07:57.956+05:30  INFO 14552 --- [instructor_service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-04-27T17:07:58.100+05:30  WARN 14552 --- [instructor_service] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-04-27T17:07:58.164+05:30  INFO 14552 --- [instructor_service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-04-30T13:50:06.070+05:30  INFO 17956 --- [instructor_service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-30T13:50:07.126+05:30  INFO 17956 --- [instructor_service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-30T13:50:09.115+05:30  WARN 17956 --- [instructor_service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-30T13:50:12.459+05:30  INFO 17956 --- [instructor_service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8001 (http) with context path '/'
+2025-04-30T13:50:12.810+05:30  INFO 17956 --- [instructor_service] [main] c.s.i.InstructorServiceApplication       : Started InstructorServiceApplication in 26.95 seconds (process running for 28.289)
+2025-04-30T13:50:33.902+05:30  INFO 12692 --- [instructor_service] [main] c.s.i.InstructorServiceApplication       : Starting InstructorServiceApplication using Java 21.0.5 with PID 12692 (C:\Desktop\skill_share_paf\instructor_service\instructor_service\target\classes started by dell in C:\Desktop\skill_share_paf\instructor_service\instructor_service)
+2025-04-30T13:50:33.906+05:30 DEBUG 12692 --- [instructor_service] [main] c.s.i.InstructorServiceApplication       : Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-04-30T13:50:33.908+05:30  INFO 12692 --- [instructor_service] [main] c.s.i.InstructorServiceApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-04-30T13:50:38.479+05:30  INFO 12692 --- [instructor_service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-30T13:50:38.754+05:30  INFO 12692 --- [instructor_service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 240 ms. Found 1 JPA repository interface.
+2025-04-30T13:50:42.050+05:30  INFO 12692 --- [instructor_service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8001 (http)
+2025-04-30T13:50:42.102+05:30  INFO 12692 --- [instructor_service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-30T13:50:42.105+05:30  INFO 12692 --- [instructor_service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-04-30T13:50:42.316+05:30  INFO 12692 --- [instructor_service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-30T13:50:42.318+05:30  INFO 12692 --- [instructor_service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 8249 ms
+2025-04-30T13:50:43.258+05:30  INFO 12692 --- [instructor_service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-30T13:50:43.682+05:30  INFO 12692 --- [instructor_service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-04-30T13:50:43.839+05:30  INFO 12692 --- [instructor_service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-30T13:50:45.247+05:30  INFO 12692 --- [instructor_service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-30T13:50:45.380+05:30  INFO 12692 --- [instructor_service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-30T13:50:46.407+05:30  INFO 12692 --- [instructor_service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1c00d406
+2025-04-30T13:50:46.420+05:30  INFO 12692 --- [instructor_service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-30T13:50:46.646+05:30  WARN 12692 --- [instructor_service] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-30T13:50:46.730+05:30  INFO 12692 --- [instructor_service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 17.4
@@ -68,23 +55,157 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-04-27T17:08:00.752+05:30  INFO 14552 --- [instructor_service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-04-27T17:08:01.573+05:30  INFO 14552 --- [instructor_service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-04-27T17:08:02.700+05:30  WARN 14552 --- [instructor_service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-27T17:08:03.965+05:30  INFO 14552 --- [instructor_service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8001 (http) with context path '/'
-2025-04-27T17:08:03.995+05:30  INFO 14552 --- [instructor_service] [main] c.s.i.InstructorServiceApplication       : Started InstructorServiceApplication in 13.259 seconds (process running for 14.364)
-2025-04-27T17:18:41.911+05:30  INFO 14552 --- [instructor_service] [http-nio-8001-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-04-27T17:18:41.938+05:30  INFO 14552 --- [instructor_service] [http-nio-8001-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-04-27T17:18:42.096+05:30  INFO 14552 --- [instructor_service] [http-nio-8001-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 155 ms
-2025-04-27T17:18:43.353+05:30  INFO 14552 --- [instructor_service] [http-nio-8001-exec-3] c.s.i.service.CourseService              : Updating course with ID: 4
-2025-04-27T17:18:43.800+05:30  INFO 14552 --- [instructor_service] [http-nio-8001-exec-3] c.s.i.service.CourseService              : Updating modules for course ID: 4
-2025-04-27T17:18:44.055+05:30  INFO 14552 --- [instructor_service] [http-nio-8001-exec-3] c.s.i.service.CourseService              : Course updated with ID: 4
-2025-04-27T17:19:28.457+05:30  INFO 14552 --- [instructor_service] [http-nio-8001-exec-2] c.s.i.service.CourseService              : Deleting course with ID: 4
-2025-04-27T17:19:28.506+05:30  INFO 14552 --- [instructor_service] [http-nio-8001-exec-2] c.s.i.service.CourseService              : Course deleted with ID: 4
-2025-04-27T17:19:47.687+05:30  INFO 14552 --- [instructor_service] [http-nio-8001-exec-4] c.s.i.service.CourseService              : Deleting course with ID: 2
-2025-04-27T17:19:47.710+05:30  INFO 14552 --- [instructor_service] [http-nio-8001-exec-4] c.s.i.service.CourseService              : Course deleted with ID: 2
-2025-04-27T17:26:05.645+05:30  INFO 14552 --- [instructor_service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-04-27T17:26:05.752+05:30  INFO 14552 --- [instructor_service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-04-27T17:26:05.828+05:30  INFO 14552 --- [instructor_service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-04-27T17:26:05.920+05:30  INFO 14552 --- [instructor_service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-04-27T17:26:06.012+05:30  INFO 14552 --- [instructor_service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-30T13:50:51.303+05:30  INFO 12692 --- [instructor_service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-30T13:50:52.114+05:30  INFO 12692 --- [instructor_service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-30T13:50:53.661+05:30  WARN 12692 --- [instructor_service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-30T13:50:55.136+05:30  WARN 12692 --- [instructor_service] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-04-30T13:50:55.146+05:30  INFO 12692 --- [instructor_service] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-30T13:50:55.154+05:30  INFO 12692 --- [instructor_service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-30T13:50:55.172+05:30  INFO 12692 --- [instructor_service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-30T13:50:55.239+05:30  INFO 12692 --- [instructor_service] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-30T13:50:55.314+05:30 ERROR 12692 --- [instructor_service] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8001 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8001 or configure this application to listen on another port.
+
+2025-04-30T13:53:02.780+05:30  INFO 17956 --- [instructor_service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-30T13:53:02.983+05:30  INFO 17956 --- [instructor_service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-30T13:53:03.145+05:30  INFO 17956 --- [instructor_service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-30T13:53:03.381+05:30  INFO 17956 --- [instructor_service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-30T13:53:03.500+05:30  INFO 17956 --- [instructor_service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-30T13:53:31.022+05:30  INFO 38752 --- [instructor_service] [main] c.s.i.InstructorServiceApplication       : Starting InstructorServiceApplication using Java 21.0.5 with PID 38752 (C:\Desktop\skill_share_paf\instructor_service\instructor_service\target\classes started by dell in C:\Desktop\skill_share_paf\instructor_service\instructor_service)
+2025-04-30T13:53:31.027+05:30 DEBUG 38752 --- [instructor_service] [main] c.s.i.InstructorServiceApplication       : Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-04-30T13:53:31.029+05:30  INFO 38752 --- [instructor_service] [main] c.s.i.InstructorServiceApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-04-30T13:53:32.792+05:30  INFO 38752 --- [instructor_service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-30T13:53:32.955+05:30  INFO 38752 --- [instructor_service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 132 ms. Found 1 JPA repository interface.
+2025-04-30T13:53:34.463+05:30  INFO 38752 --- [instructor_service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8003 (http)
+2025-04-30T13:53:34.508+05:30  INFO 38752 --- [instructor_service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-30T13:53:34.510+05:30  INFO 38752 --- [instructor_service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-04-30T13:53:34.666+05:30  INFO 38752 --- [instructor_service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-30T13:53:34.668+05:30  INFO 38752 --- [instructor_service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3507 ms
+2025-04-30T13:53:35.141+05:30  INFO 38752 --- [instructor_service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-30T13:53:35.282+05:30  INFO 38752 --- [instructor_service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-04-30T13:53:35.364+05:30  INFO 38752 --- [instructor_service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-30T13:53:36.024+05:30  INFO 38752 --- [instructor_service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-30T13:53:36.089+05:30  INFO 38752 --- [instructor_service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-30T13:53:36.586+05:30  INFO 38752 --- [instructor_service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@76828577
+2025-04-30T13:53:36.590+05:30  INFO 38752 --- [instructor_service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-30T13:53:36.701+05:30  WARN 38752 --- [instructor_service] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-30T13:53:36.752+05:30  INFO 38752 --- [instructor_service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-30T13:53:39.169+05:30  INFO 38752 --- [instructor_service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-30T13:53:39.831+05:30  INFO 38752 --- [instructor_service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-30T13:53:40.619+05:30  WARN 38752 --- [instructor_service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-30T13:53:41.682+05:30  INFO 38752 --- [instructor_service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8003 (http) with context path '/'
+2025-04-30T13:53:41.710+05:30  INFO 38752 --- [instructor_service] [main] c.s.i.InstructorServiceApplication       : Started InstructorServiceApplication in 12.008 seconds (process running for 12.943)
+2025-04-30T14:02:45.866+05:30  INFO 38752 --- [instructor_service] [http-nio-8003-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-30T14:02:45.916+05:30  INFO 38752 --- [instructor_service] [http-nio-8003-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-30T14:02:46.085+05:30  INFO 38752 --- [instructor_service] [http-nio-8003-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 166 ms
+2025-04-30T14:02:47.722+05:30  INFO 38752 --- [instructor_service] [http-nio-8003-exec-2] c.s.i.service.CourseService              : Creating course: Introduction to Java
+2025-04-30T14:02:48.359+05:30  INFO 38752 --- [instructor_service] [http-nio-8003-exec-2] c.s.i.service.CourseService              : Course created with ID: 5
+2025-04-30T15:03:06.114+05:30  WARN 38752 --- [instructor_service] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59m59s218ms455µs700ns).
+2025-04-30T15:04:23.388+05:30  INFO 38752 --- [instructor_service] [http-nio-8003-exec-6] c.s.i.service.CourseService              : Creating course: Introduction to Java
+2025-04-30T15:04:23.589+05:30  INFO 38752 --- [instructor_service] [http-nio-8003-exec-6] c.s.i.service.CourseService              : Course created with ID: 6
+2025-04-30T15:06:47.983+05:30  INFO 38752 --- [instructor_service] [http-nio-8003-exec-4] c.s.i.service.CourseService              : Creating course: Introduction to Java
+2025-04-30T15:06:48.272+05:30  INFO 38752 --- [instructor_service] [http-nio-8003-exec-4] c.s.i.service.CourseService              : Course created with ID: 7
+2025-04-30T15:07:11.690+05:30  INFO 38752 --- [instructor_service] [http-nio-8003-exec-7] c.s.i.service.CourseService              : Fetching all courses
+2025-04-30T15:09:39.067+05:30  WARN 38752 --- [instructor_service] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m35s80ms10µs200ns).
+2025-04-30T15:38:17.879+05:30  INFO 38752 --- [instructor_service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-30T15:38:18.170+05:30  INFO 38752 --- [instructor_service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-30T15:38:18.452+05:30  INFO 38752 --- [instructor_service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-30T15:38:18.647+05:30  INFO 38752 --- [instructor_service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-30T15:38:18.776+05:30  INFO 38752 --- [instructor_service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-30T16:51:08.160+05:30  INFO 54508 --- [instructor_service] [main] c.s.i.InstructorServiceApplication       : Starting InstructorServiceApplication using Java 21.0.5 with PID 54508 (C:\Desktop\skill_share_paf\instructor_service\instructor_service\target\classes started by dell in C:\Desktop\skill_share_paf\instructor_service\instructor_service)
+2025-04-30T16:51:08.167+05:30 DEBUG 54508 --- [instructor_service] [main] c.s.i.InstructorServiceApplication       : Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-04-30T16:51:08.169+05:30  INFO 54508 --- [instructor_service] [main] c.s.i.InstructorServiceApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-04-30T16:51:10.852+05:30  INFO 54508 --- [instructor_service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-30T16:51:11.072+05:30  INFO 54508 --- [instructor_service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 189 ms. Found 1 JPA repository interface.
+2025-04-30T16:51:12.771+05:30  INFO 54508 --- [instructor_service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8003 (http)
+2025-04-30T16:51:12.812+05:30  INFO 54508 --- [instructor_service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-30T16:51:12.813+05:30  INFO 54508 --- [instructor_service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-04-30T16:51:12.969+05:30  INFO 54508 --- [instructor_service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-30T16:51:12.971+05:30  INFO 54508 --- [instructor_service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4623 ms
+2025-04-30T16:51:13.524+05:30  INFO 54508 --- [instructor_service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-30T16:51:13.730+05:30  INFO 54508 --- [instructor_service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-04-30T16:51:13.850+05:30  INFO 54508 --- [instructor_service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-30T16:51:14.715+05:30  INFO 54508 --- [instructor_service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-30T16:51:14.802+05:30  INFO 54508 --- [instructor_service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-30T16:51:15.417+05:30  INFO 54508 --- [instructor_service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3a861417
+2025-04-30T16:51:15.421+05:30  INFO 54508 --- [instructor_service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-30T16:51:15.574+05:30  WARN 54508 --- [instructor_service] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-30T16:51:15.628+05:30  INFO 54508 --- [instructor_service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-30T16:51:15.981+05:30  INFO 16544 --- [instructor_service] [main] c.s.i.InstructorServiceApplication       : Starting InstructorServiceApplication using Java 21.0.5 with PID 16544 (C:\Desktop\skill_share_paf\instructor_service\instructor_service\target\classes started by dell in C:\Desktop\skill_share_paf\instructor_service\instructor_service)
+2025-04-30T16:51:15.988+05:30 DEBUG 16544 --- [instructor_service] [main] c.s.i.InstructorServiceApplication       : Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-04-30T16:51:15.990+05:30  INFO 16544 --- [instructor_service] [main] c.s.i.InstructorServiceApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-04-30T16:51:18.793+05:30  INFO 16544 --- [instructor_service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-30T16:51:19.216+05:30  INFO 16544 --- [instructor_service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 395 ms. Found 1 JPA repository interface.
+2025-04-30T16:51:19.222+05:30  INFO 54508 --- [instructor_service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-30T16:51:20.487+05:30  INFO 54508 --- [instructor_service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-30T16:51:21.675+05:30  INFO 16544 --- [instructor_service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8003 (http)
+2025-04-30T16:51:21.719+05:30  INFO 16544 --- [instructor_service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-30T16:51:21.720+05:30  INFO 16544 --- [instructor_service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-04-30T16:51:21.793+05:30  WARN 54508 --- [instructor_service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-30T16:51:21.926+05:30  INFO 16544 --- [instructor_service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-30T16:51:21.927+05:30  INFO 16544 --- [instructor_service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5806 ms
+2025-04-30T16:51:22.683+05:30  INFO 16544 --- [instructor_service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-30T16:51:23.038+05:30  INFO 16544 --- [instructor_service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-04-30T16:51:23.227+05:30  INFO 16544 --- [instructor_service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-30T16:51:23.475+05:30  INFO 54508 --- [instructor_service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8003 (http) with context path '/'
+2025-04-30T16:51:23.514+05:30  INFO 54508 --- [instructor_service] [main] c.s.i.InstructorServiceApplication       : Started InstructorServiceApplication in 16.97 seconds (process running for 18.305)
+2025-04-30T16:51:24.241+05:30  INFO 16544 --- [instructor_service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-30T16:51:24.411+05:30  INFO 16544 --- [instructor_service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-30T16:51:25.489+05:30  INFO 16544 --- [instructor_service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1c2d63f0
+2025-04-30T16:51:25.493+05:30  INFO 16544 --- [instructor_service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-30T16:51:25.595+05:30  WARN 16544 --- [instructor_service] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-30T16:51:25.654+05:30  INFO 16544 --- [instructor_service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-30T16:51:28.647+05:30  INFO 16544 --- [instructor_service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-30T16:51:29.484+05:30  INFO 16544 --- [instructor_service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-30T16:51:31.568+05:30  WARN 16544 --- [instructor_service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-30T16:51:33.032+05:30  WARN 16544 --- [instructor_service] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-04-30T16:51:33.037+05:30  INFO 16544 --- [instructor_service] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-30T16:51:33.043+05:30  INFO 16544 --- [instructor_service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-30T16:51:33.145+05:30  INFO 16544 --- [instructor_service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-30T16:51:49.942+05:30  INFO 54508 --- [instructor_service] [http-nio-8003-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-30T16:51:49.942+05:30  INFO 54508 --- [instructor_service] [http-nio-8003-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-30T16:51:49.950+05:30  INFO 54508 --- [instructor_service] [http-nio-8003-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2025-04-30T16:51:50.092+05:30  INFO 54508 --- [instructor_service] [http-nio-8003-exec-2] c.s.i.service.CourseService              : Fetching all courses
+2025-04-30T16:52:14.095+05:30  INFO 54508 --- [instructor_service] [http-nio-8003-exec-5] c.s.i.service.CourseService              : Deleting course with ID: 3
+2025-04-30T16:52:14.293+05:30  INFO 54508 --- [instructor_service] [http-nio-8003-exec-5] c.s.i.service.CourseService              : Course deleted with ID: 3
+2025-04-30T17:08:12.038+05:30  WARN 54508 --- [instructor_service] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56s92ms712µs).
+2025-04-30T20:06:52.938+05:30  WARN 54508 --- [instructor_service] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h58m8s75ms305µs700ns).
+2025-04-30T20:07:29.109+05:30  INFO 54508 --- [instructor_service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-30T20:07:29.386+05:30  INFO 54508 --- [instructor_service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-30T20:07:29.618+05:30  INFO 54508 --- [instructor_service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-30T20:07:29.838+05:30  INFO 54508 --- [instructor_service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-30T20:07:29.967+05:30  INFO 54508 --- [instructor_service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

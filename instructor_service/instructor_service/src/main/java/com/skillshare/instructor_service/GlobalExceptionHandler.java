@@ -1,4 +1,4 @@
-package com.skillshare.instructor_service.exception;
+package com.skillshare.instructor_service;
 
 import com.skillshare.instructor_service.ResourceNotFoundException;
 import org.hibernate.exception.ConstraintViolationException;
